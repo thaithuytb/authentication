@@ -1,0 +1,13 @@
+GET http://localhost:5000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJuZ29jYWl5ZXUiLCJpYXQiOjE2MjE4MTgyMjJ9.KIxIC5AGXlFRiWRlMuSU4Xx0G7Xk_wv3szLoJtPqY9Y
+
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "ngocaiyeu"
+}
+
